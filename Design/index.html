@@ -19,6 +19,9 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" href="css/baguetteBox.css">
+    <link rel="stylesheet" href="css/home-gallery.css">
+
 	</head>
 	<body>
        
@@ -74,23 +77,23 @@
        </section><!--       /Mobile menu    -->
 
 	   <div class="container">
-			<!-- Top Navigation -->
-			<div id="boxgallery" class="boxgallery" data-effect="effect-1">
-				<div class="panel"><img src="img/1.jpg" alt="Image 1"/></div>
-				<div class="panel"><img src="img/2.png" alt="Image 2"/></div>
-				<div class="panel"><img src="img/3.jpg" alt="Image 3"/></div>
-				<div class="panel"><img src="img/4.png" alt="Image 4"/></div>
-			</div>
-			<header class="codrops-header">
-				<h1> dream big act </h1>
-				<h1 id='second-title'> small begin now  </h1>
-				<span>follow your dreams and reach for the stars</span>
-				<div id="button-group">
-					<a id="learn-more-button">Learn More</a>
-					<a id="buy-more-button">Buy it now</a>
-			    </div>		
-			</header>
-		</div><!--       /Main Slider   -->
+  			<!-- Top Navigation -->
+  			<div id="boxgallery" class="boxgallery" data-effect="effect-1">
+  				<div class="panel"><img src="img/1.jpg" alt="Image 1"/></div>
+  				<div class="panel"><img src="img/2.png" alt="Image 2"/></div>
+  				<div class="panel"><img src="img/3.jpg" alt="Image 3"/></div>
+  				<div class="panel"><img src="img/4.png" alt="Image 4"/></div>
+  			</div>
+  			<header class="codrops-header">
+  				<h1> dream big act </h1>
+  				<h1 id='second-title'> small begin now  </h1>
+  				<span>follow your dreams and reach for the stars</span>
+  				<div id="button-group">
+  					<a id="learn-more-button">Learn More</a>
+  					<a id="buy-more-button">Buy it now</a>
+  			    </div>		
+  			</header>
+		  </div><!--       /Main Slider   -->
 
 	  <section id="my-stroy-section">
       <div class="container">
@@ -205,7 +208,7 @@
     </section><!--           /our-services       -->
 
     <section id="img-gallery">
-      <div class="container-fluid" id="gallery-container">
+      <div class="container" id="gallery-container">
          <div class="row">
              <div id="our-services-text-box">
                 <p id='our-services-small-title'>OUR AMAZING WORKS</p>
@@ -214,41 +217,40 @@
                 <p id="our-services-disc">We are driven by creating experiences that deliver results for your business and for your consumers. Our approach is simple and iterative.Sed ut perspiciatis unde omnis.</p>
              </div>
 
-             <div>
-                 <div class="col-sm-3 col-xs-12" id="gallrey-img-box">
-                    <img src="img/img-2-1.jpg" id="gallrey-img">
-                 </div>
-                 <div class="col-sm-3 col-xs-12" id="gallrey-img-box">
-                    <img src="img/img-2-10.jpg" id="gallrey-img">
-                 </div>
-                 <div class="col-sm-3 col-xs-12" id="gallrey-img-box">
-                    <img src="img/img-2-8.jpg" id="gallrey-img">
-                 </div>
-                 <div class="col-sm-3 col-xs-12" id="gallrey-img-box">
-                    <img src="img/img-2-4.jpg" id="gallrey-img">
-                 </div>
-                 <div class="col-sm-3 col-xs-12" id="gallrey-img-box">
-                    <img src="img/img-2-5.jpg" id="gallrey-img">
-                 </div>
-                 <div class="col-sm-3 col-xs-12" id="gallrey-img-box">
-                    <img src="img/img-2-6.jpg" id="gallrey-img">
-                 </div>
-                 <div class="col-sm-3 col-xs-12" id="gallrey-img-box">
-                    <img src="img/img-2-7.jpg" id="gallrey-img">
-                 </div>
-                 <div class="col-sm-3 col-xs-12" id="gallrey-img-box">
-                    <img src="img/img-2-9.jpg" id="gallrey-img">
-                 </div>
+             <div class="tz-gallery">
+                <div class="col-xs-6 col-md-4" id="home-gallery-img-box">
+                <a class="lightbox" href="img/bridge.jpg">
+                    <img src="img/bridge.jpg" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-4" id="home-gallery-img-box">
+                <a class="lightbox" href="img/park.jpg">
+                    <img src="img/park.jpg" alt="Park">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-4" id="home-gallery-img-box">
+                <a class="lightbox" href="img/tunnel.jpg">
+                    <img src="img/tunnel.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-4" id="home-gallery-img-box">
+                <a class="lightbox" href="img/traffic.jpg">
+                    <img src="img/traffic.jpg" alt="Traffic">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-4" id="home-gallery-img-box">
+                <a class="lightbox" href="img/coast.jpg">
+                    <img src="img/coast.jpg" alt="Coast">
+                </a>
+            </div> 
+            <div class="col-xs-6 col-md-4" id="home-gallery-img-box">
+                <a class="lightbox" href="img/rails.jpg">
+                    <img src="img/rails.jpg" alt="Rails">
+                </a>
+            </div>
              </div><!-- gallery-img-inside -->
-
-             <div id="image-box-popup">
-                 <i class="fa fa-times"></i>
-                 <img src="">
-             </div>
-             
-
-         </div>
-      </div>
+          </div>
+       </div>
     </section><!--           /our-gallery-imag      -->
 
     <section id="more-gallery-image">
@@ -491,6 +493,10 @@
 		<script src="js/classie.js"></script>
 		<script src="js/boxesFx.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/baguetteBox.js"></script>
+    <script>
+    baguetteBox.run('.tz-gallery');
+    </script>
 		<script>
 			new BoxesFx( document.getElementById( 'boxgallery' ) );
 		</script>

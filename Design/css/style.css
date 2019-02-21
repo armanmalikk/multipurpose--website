@@ -141,43 +141,72 @@ p#our-services-icons-desc {
     padding-top: 150px;
     padding-bottom: 150px;
 }
-#gallery-container {
-    overflow: hidden;
-}
-img#gallrey-img {
-    width: 100%;
-    height: 270px;
-    cursor: pointer;
-}
-div#gallrey-img-box {
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-bottom: 10px;
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    color: #58595a;
 }
 
-div#image-box-popup {
-    z-index: 1000;
-    position: absolute;
-    display: none;
-    margin: auto;;
-    width: 100%;
-    background: #07070785;
-}
-div#image-box-popup img {
-    margin: auto;
-    display: block;
-    margin-top: 100px;
-    width: 30%;
-    margin-bottom: 100px;
-}
-i.fa.fa-times {
-    float: right;
-    padding-right: 30px;
-    padding-top: 20px;
-    font-size: 30px;
-    color: #ffffff73;
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #85878c;
 }
 
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.tz-gallery .thumbnail:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+.tz-gallery .lightbox img {
+    border-radius: 4px 4px 0 0;
+}
+
+.tz-gallery .caption{
+    padding: 26px 30px;
+    text-align: center;
+}
+
+.tz-gallery .caption h3 {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    color: #252525;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+    letter-spacing: 1px;
+}
+
+.tz-gallery .caption p {
+    font-family: 'Lora', serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #5a5a5a;
+    margin: 0;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+#home-gallery-img-box{
+    margin-bottom: 25px;
+}
 
 /***********************************************
                  Show more image
@@ -783,13 +812,24 @@ span#our-plan-price-button {
 span#our-plan-price-button:hover {
     background: #ab4e52;
 }
+/********************************************************************************************************************
+                                                               Blog Page
+***********************************************************************************************************************/
+div#blog-post-box {
+    margin-top: 80px;
+    background-color: #f6f7f8;
+    margin-bottom: 40px;
+}
+div#cata-box-part {
+    padding-top: 60px;
+}
 div#who-post-blog {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 span#post-date {
-	padding-right: 20px;
+    padding-right: 20px;
     color: #576363;
     margin-top: 10px;
     font-size: 13px;
@@ -806,10 +846,10 @@ i.far.fa-calendar-alt {
     padding-right: 5px;
 }
 i.far.fa-user{
-	padding-right: 5px;
+    padding-right: 5px;
 }
 i.far.fa-comments{
-	padding-right: 5px;
+    padding-right: 5px;
 }
 div#blogpost-box {
     text-align: center;
@@ -840,17 +880,6 @@ div#blogpost-box {
     padding-right: 10%;
 }
 
-/********************************************************************************************************************
-                                                               Blog Page
-***********************************************************************************************************************/
-div#blog-post-box {
-    margin-top: 80px;
-    background-color: #f6f7f8;
-    margin-bottom: 40px;
-}
-div#cata-box-part {
-    padding-top: 60px;
-}
 span#blog-cata-list {
     color: #333333 !important;
     font-size: 18px !important;
