@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section id="about-section">
+          <div id="about-text-box">
+            <p id='about-page-title'>Portfolio</p>
+       	    <span id='home-page-link'><a href="/">Home</a></span><span>/</span><span id='about-page-link'><a>Portfolio</a></spna>
+       	  </div>  
+       </section><!--       /About    -->
+
+       
+        <section id="img-gallery">
+            <div class="container" id="gallery-container">
+               <div class="row">
+                   <div id="our-services-text-box">
+                      <p id='our-services-small-title'>OUR AMAZING WORKS</p>
+                      <p id='our-services-big-title'>LET US BLOW YOUR MIND</p>
+                      <hr id="our-services-line"/>
+                      <p id="our-services-disc">We are driven by creating experiences that deliver results for your business and for your consumers. Our approach is simple and iterative.Sed ut perspiciatis unde omnis.</p>
+                   </div>
+
+                <div class="tz-gallery">
+                  <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <a class="lightbox" href="img/park.jpg">
+                          <img src="{% static 'img/park.jpg' %}" alt="Park">
+                      </a>
+                      <div class="caption">
+                          <h3>Thumbnail label</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                      <div class="thumbnail">
+                          <a class="lightbox" href="img/bridge.jpg">
+                              <img src="{% static 'img/bridge.jpg' %}" alt="Bridge">
+                          </a>
+                          <div class="caption">
+                              <h3>Thumbnail label</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                      <div class="thumbnail">
+                          <a class="lightbox" href="img/tunnel.jpg">
+                              <img src="{% static 'img/tunnel.jpg' %}" alt="Tunnel">
+                          </a>
+                          <div class="caption">
+                              <h3>Thumbnail label</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                      <div class="thumbnail">
+                          <a class="lightbox" href="img/coast.jpg">
+                              <img src="{% static 'img/coast.jpg' %}" alt="Coast">
+                          </a>
+                          <div class="caption">
+                              <h3>Thumbnail label</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                      <div class="thumbnail">
+                          <a class="lightbox" href="img/rails.jpg">
+                              <img src="{% static 'img/rails.jpg' %}" alt="Rails">
+                          </a>
+                          <div class="caption">
+                              <h3>Thumbnail label</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                      <div class="thumbnail">
+                          <a class="lightbox" href="img/traffic.jpg">
+                              <img src="{% static 'img/traffic.jpg' %}" alt="Traffic">
+                          </a>
+                          <div class="caption">
+                              <h3>Thumbnail label</h3>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+                      </div>
+                  </div>
+             </div><!-- gallery-img-inside -->
+
+                   
+
+               </div>
+            </div>
+        </section><!--           /our-gallery-imag      -->
+
+{% endblock %}  

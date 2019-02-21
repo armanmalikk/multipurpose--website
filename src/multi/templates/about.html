@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+<section id="about-section">
+          <div id="about-text-box">
+            <p id='about-page-title'>About</p>
+       	    <span id='home-page-link'><a href="/">Home</a></span><span>/</span><span id='about-page-link'><a>About</a></spna>
+       	  </div>  
+       </section><!--       /About    -->
+
+        <section id="my-stroy-section">
+	      <div class="container">
+	         <div class="row">
+	            <div class="col-sm-4">
+	                <img src="{% static 'img/story-img.jpg" id="stroy-img' %}">
+	            </div>
+	            <div class="col-sm-8" id="stroy-text-box">
+	                <p id="stroy-title">THE STORY ABOUT US</p>
+	                
+	                  <hr class="red-line">
+	                <div>
+	                <p id="stroy-subtitle">We are driven by creating experiences that deliver results for your business and for your consumers. Our approach is simple and iterative.</p>
+	                </div>  
+	                <p id="stroy-description">The point of using Lorem Ipsum is that it has amore or less normal distribution of letters as opposed to using making it look like anes readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text and a search for there many web sites have 
+	                over the years.</p>
+	                <div class="col-sm-4 col-xs-4 story">
+	                   <i class="fa fa-mobile"></i>
+	                   <p id="icon-text"> 01. Retina Ready</p>
+	                </div>
+	                <div class="col-sm-4 col-xs-4 story">
+	                  <i class="fa fa-wrench"></i> 
+	                  <p id="icon-text"> 02. Easy to Customize</p>
+	                </div>
+	                <div class="col-sm-4 col-xs-4 story">
+	                  <i class="fas fa-pencil-alt"></i>
+	                  <p id="icon-text"> 03. Unique design</p>
+	                </div>
+	            </div>
+	         </div>
+	      </div> 
+        </section><!--           /My stroy        -->
+
+        <section id="build-with-us">
+	      <div class="container">
+	         <div class="row">
+	             <div id="our-services-text-box">
+	                <p id='our-services-small-title'>BEST SERVIECE</p>
+	                <p id='our-services-big-title'>OUR WORK FLOW</p>
+	                <hr id="our-services-line"/>
+	             </div>
+
+                <div class="col-sm-12" id="about-us-part">
+		             <div class="col-sm-3">
+		                <i class="fas fa-lightbulb" id="about-page-icon-list"></i>
+		                <div id="best-service-list">
+		                  <p id="about-us-icon-title">PLANNING</p>
+		                  <p id="about-us-icon-x">X</p>
+		                  <p id="about-us-icon-des">Cras mattis consectetur purus sites samet it fermentum.</p>
+		                </div>
+		             </div>
+		             <div class="col-sm-3">
+		                <i class="fas fa-pen-nib" id="about-page-icon-list"></i>
+		                <div id="best-service-list">
+		                  <p id="about-us-icon-title">DESIGN</p>
+		                  <p id="about-us-icon-x">X</p>
+		                  <p id="about-us-icon-des">Cras mattis consectetur purus sites samet it fermentum.</p>
+		                </div>
+		             </div>
+		             <div class="col-sm-3">
+		                <i class="fas fa-bezier-curve" id="about-page-icon-list"></i>
+		                <div id="best-service-list">
+		                  <p id="about-us-icon-title">DEVELOPING</p>
+		                  <p id="about-us-icon-x">X</p>
+		                  <p id="about-us-icon-des">Cras mattis consectetur purus sites samet it fermentum.</p>
+		                </div>
+		             </div>
+		             <div class="col-sm-3">
+		                <i class="fas fa-desktop" id="about-page-icon-list"></i>
+		                <div id="best-service-list">
+		                  <p id="about-us-icon-title">PRESENTATION</p>
+		                  <p id="about-us-icon-x">X</p>
+		                  <p id="about-us-icon-des">Cras mattis consectetur purus sites samet it fermentum.</p>
+		                </div>
+		             </div>
+		        </div>     
+	             
+
+	             
+
+	         </div>
+	      </div>
+        </section><!--           /Build with us      -->
+
+        <section id="our-client">
+	      <div class="container">
+	         <div class="row">
+	             <div id="our-services-text-box">
+	                <p id='our-client-small-title'>OUR CLIENTS</p>
+	                <p id='our-client-big-title'>CLIENTS WORK WITH US</p>
+	                <hr id="our-client-line"/>
+	                <p id="our-client-disc">“A shadowy flight into the dangerous world of a man who does not exist. We're gonna do it. On your mark get set . Got a dream and we just know now we're gonna make our dream come true! Why do we always come here guess well never know. Its like a kind of torture to have to watch the show.”</p>
+	             </div>
+
+	             <div class="col-sm-3" id="client-img">
+	                 <img src="{% static 'img/c-img-1-1.png' %}">
+	             </div>
+	             <div class="col-sm-3" id="client-img">
+	                 <img src="{% static 'img/c-img-1-2.png' %}">
+	             </div>
+	             <div class="col-sm-3" id="client-img">
+	                 <img src="{% static 'img/c-img-1-3.png' %}">
+	             </div>
+	             <div class="col-sm-3" id="client-img">
+	                 <img src="{% static 'img/c-img-1-2.png' %}">
+	             </div>
+	             
+	         </div>
+	      </div>
+        </section><!--           /our-client     -->
+
+
+
+{% endblock %}  
