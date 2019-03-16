@@ -812,6 +812,19 @@ span#our-plan-price-button {
 span#our-plan-price-button:hover {
     background: #ab4e52;
 }
+.vaidroad-copy {
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 12px;
+    background-color: black;
+    margin-bottom: 0px;
+    padding: 10px;
+    font-family: Poppins, sans-serif;
+}
+.vaidroad-copy a:hover{
+    text-decoration: none;
+}
 /********************************************************************************************************************
                                                                Blog Page
 ***********************************************************************************************************************/
